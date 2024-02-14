@@ -34,11 +34,12 @@ body {
   background:
       /* top, transparent black, faked with gradient */ 
     linear-gradient(
-    rgba(0, 0, 0, 0.7), 
-    rgba(0, 0, 0, 0.7)
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)
     ),
       /* bottom, image */
     url(images/cozy_coven.png) no-repeat center center fixed;
+    background-attachment: fixed;
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
